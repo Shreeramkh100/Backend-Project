@@ -1,0 +1,19 @@
+{
+  "name": "02_productionproject",
+  "version": "1.0.0",
+  "description": "Backend project from Chai aur Backend",
+  "keywords": [
+    "Javascript",
+    "Node",
+    "JS",
+    "Express",
+    "Backend"
+  ],
+  "license": "ISC",
+  "author": "Shreeram Haridas",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
