@@ -28,6 +28,17 @@ export const app=express()
         extended:true  // supports nested objects
     }))
 
+    //Error Handling 
+    // 1)AsyncHandler
+    app.use((err, req, res, next) => {
+    console.log("Error:", err.message);
+
+    res.status(err.code||500).json({
+        success: false,
+        message: err.message
+    });
+    });
+
 
 
 
